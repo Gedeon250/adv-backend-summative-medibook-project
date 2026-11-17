@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="990" viewBox="0 0 1240 990" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1240" height="990" fill="#fbfcfb"/>
+<text x="40" y="38" font-size="22" font-weight="700" fill="#1c2b2d">MediBook database schema (3NF)</text>
+<rect x="40" y="70" width="400" height="168" rx="8" fill="#fff" stroke="#0d6b5c" stroke-width="2"/>
+<path d="M40,98 L40,78 Q40,70 48,70 L432,70 Q440,70 440,78 L440,98 Z" fill="#0d6b5c"/>
+<text x="54" y="89" font-size="15" font-weight="700" fill="#fff">patients</text>
+<rect x="41" y="98" width="398" height="28" fill="#f4f7f6"/>
+<text x="52" y="117" font-size="11" font-weight="700" fill="#b45309">PK</text>
+<text x="90" y="117" font-size="12.5" font-weight="600" fill="#1c2b2d">id</text>
+<text x="190" y="117" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">INT UNSIGNED</text>
+<text x="310" y="117" font-size="11" fill="#5b6b6d">AUTO_INCREMENT</text>
+<text x="90" y="145" font-size="12.5" font-weight="400" fill="#1c2b2d">full_name</text>
+<text x="190" y="145" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(100)</text>
+<text x="310" y="145" font-size="11" fill="#5b6b6d">NOT NULL</text>
+<rect x="41" y="154" width="398" height="28" fill="#f4f7f6"/>
+<text x="52" y="173" font-size="11" font-weight="700" fill="#047857">UQ</text>
+<text x="90" y="173" font-size="12.5" font-weight="400" fill="#1c2b2d">email</text>
+<text x="190" y="173" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(150)</text>
+<text x="310" y="173" font-size="11" fill="#5b6b6d">NOT NULL, UNIQUE</text>
+<text x="90" y="201" font-size="12.5" font-weight="400" fill="#1c2b2d">phone</text>
+<text x="190" y="201" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(20)</text>
+<text x="310" y="201" font-size="11" fill="#5b6b6d">NOT NULL</text>
+<rect x="41" y="210" width="398" height="28" fill="#f4f7f6"/>
+<text x="90" y="229" font-size="12.5" font-weight="400" fill="#1c2b2d">created_at</text>
+<text x="190" y="229" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME</text>
+<text x="310" y="229" font-size="11" fill="#5b6b6d">DEFAULT NOW</text>
+<rect x="800" y="70" width="400" height="196" rx="8" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+<path d="M800,98 L800,78 Q800,70 808,70 L1192,70 Q1200,70 1200,78 L1200,98 Z" fill="#1d4ed8"/>
+<text x="814" y="89" font-size="15" font-weight="700" fill="#fff">doctors</text>
+<rect x="801" y="98" width="398" height="28" fill="#f4f7f6"/>
+<text x="812" y="117" font-size="11" font-weight="700" fill="#b45309">PK</text>
+<text x="850" y="117" font-size="12.5" font-weight="600" fill="#1c2b2d">id</text>
+<text x="970" y="117" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">INT UNSIGNED</text>
+<text x="1085" y="117" font-size="11" fill="#5b6b6d">AUTO_INCREMENT</text>
+<text x="850" y="145" font-size="12.5" font-weight="400" fill="#1c2b2d">full_name</text>
+<text x="970" y="145" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(100)</text>
+<text x="1085" y="145" font-size="11" fill="#5b6b6d">NOT NULL</text>
+<rect x="801" y="154" width="398" height="28" fill="#f4f7f6"/>
+<text x="850" y="173" font-size="12.5" font-weight="400" fill="#1c2b2d">specialty</text>
+<text x="970" y="173" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(80)</text>
+<text x="1085" y="173" font-size="11" fill="#5b6b6d">NOT NULL</text>
+<text x="850" y="201" font-size="12.5" font-weight="400" fill="#1c2b2d">consultation_fee</text>
+<text x="970" y="201" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DECIMAL(10,2)</text>
+<text x="1085" y="201" font-size="11" fill="#5b6b6d">NOT NULL, &gt;= 0</text>
+<rect x="801" y="210" width="398" height="28" fill="#f4f7f6"/>
+<text x="850" y="229" font-size="12.5" font-weight="400" fill="#1c2b2d">room</text>
+<text x="970" y="229" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">VARCHAR(10)</text>
+<text x="1085" y="229" font-size="11" fill="#5b6b6d">NOT NULL</text>
+<text x="850" y="257" font-size="12.5" font-weight="400" fill="#1c2b2d">created_at</text>
+<text x="970" y="257" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME</text>
+<text x="1085" y="257" font-size="11" fill="#5b6b6d">DEFAULT NOW</text>
+<rect x="230" y="420" width="780" height="308" rx="8" fill="#fff" stroke="#b45309" stroke-width="2"/>
+<path d="M230,448 L230,428 Q230,420 238,420 L1002,420 Q1010,420 1010,428 L1010,448 Z" fill="#b45309"/>
+<text x="244" y="439" font-size="15" font-weight="700" fill="#fff">appointments</text>
+<rect x="231" y="448" width="778" height="28" fill="#f4f7f6"/>
+<text x="242" y="467" font-size="11" font-weight="700" fill="#b45309">PK</text>
+<text x="280" y="467" font-size="12.5" font-weight="600" fill="#1c2b2d">id</text>
+<text x="390" y="467" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">INT UNSIGNED</text>
+<text x="630" y="467" font-size="11" fill="#5b6b6d">AUTO_INCREMENT</text>
+<text x="242" y="495" font-size="11" font-weight="700" fill="#1d4ed8">FK</text>
+<text x="280" y="495" font-size="12.5" font-weight="400" fill="#1c2b2d">patient_id</text>
+<text x="390" y="495" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">INT UNSIGNED</text>
+<text x="630" y="495" font-size="11" fill="#5b6b6d">NOT NULL, references patients.id (RESTRICT)</text>
+<rect x="231" y="504" width="778" height="28" fill="#f4f7f6"/>
+<text x="242" y="523" font-size="11" font-weight="700" fill="#1d4ed8">FK</text>
+<text x="280" y="523" font-size="12.5" font-weight="400" fill="#1c2b2d">doctor_id</text>
+<text x="390" y="523" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">INT UNSIGNED</text>
+<text x="630" y="523" font-size="11" fill="#5b6b6d">NOT NULL, references doctors.id (RESTRICT)</text>
+<text x="280" y="551" font-size="12.5" font-weight="400" fill="#1c2b2d">appt_datetime</text>
+<text x="390" y="551" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME</text>
+<text x="630" y="551" font-size="11" fill="#5b6b6d">NOT NULL, CHECK 09:00-16:30 on :00 or :30</text>
+<rect x="231" y="560" width="778" height="28" fill="#f4f7f6"/>
+<text x="280" y="579" font-size="12.5" font-weight="400" fill="#1c2b2d">status</text>
+<text x="390" y="579" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">ENUM('booked','cancelled')</text>
+<text x="630" y="579" font-size="11" fill="#5b6b6d">NOT NULL, DEFAULT 'booked'</text>
+<text x="280" y="607" font-size="12.5" font-weight="400" fill="#1c2b2d">amount_paid</text>
+<text x="390" y="607" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DECIMAL(10,2)</text>
+<text x="630" y="607" font-size="11" fill="#5b6b6d">NOT NULL, CHECK &gt;= 0 (fee at booking time)</text>
+<rect x="231" y="616" width="778" height="28" fill="#f4f7f6"/>
+<text x="280" y="635" font-size="12.5" font-weight="400" fill="#1c2b2d">refund_amount</text>
+<text x="390" y="635" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DECIMAL(10,2)</text>
+<text x="630" y="635" font-size="11" fill="#5b6b6d">NULL until cancelled, CHECK 0..amount_paid</text>
+<text x="280" y="663" font-size="12.5" font-weight="400" fill="#1c2b2d">booked_on</text>
+<text x="390" y="663" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME</text>
+<text x="630" y="663" font-size="11" fill="#5b6b6d">NOT NULL, DEFAULT NOW</text>
+<rect x="231" y="672" width="778" height="28" fill="#f4f7f6"/>
+<text x="280" y="691" font-size="12.5" font-weight="400" fill="#1c2b2d">cancelled_at</text>
+<text x="390" y="691" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME</text>
+<text x="630" y="691" font-size="11" fill="#5b6b6d">NULL until cancelled</text>
+<text x="242" y="719" font-size="11" font-weight="700" fill="#047857">UQ</text>
+<text x="280" y="719" font-size="12.5" font-weight="400" fill="#1c2b2d">active_slot</text>
+<text x="390" y="719" font-size="11.5" fill="#0d6b5c" font-family="DejaVu Sans Mono, monospace">DATETIME (generated, stored)</text>
+<text x="630" y="719" font-size="11" fill="#5b6b6d">generated; UNIQUE together with doctor_id</text>
+<path d="M240,238 L240,386 L290,386 L290,408" fill="none" stroke="#3d4b4d" stroke-width="1.8"/>
+<path d="M232,248 L248,248 M232,254 L248,254" stroke="#3d4b4d" stroke-width="1.8"/>
+<path d="M290,408 L280,420 M290,408 L290,420 M290,408 L300,420" stroke="#3d4b4d" stroke-width="1.8" fill="none"/>
+<circle cx="290" cy="400" r="4" fill="#fbfcfb" stroke="#3d4b4d" stroke-width="1.8"/>
+<text x="254" y="380" font-size="12" fill="#5b6b6d">one patient books zero or many appointments</text>
+<path d="M1000,266 L1000,386 L950,386 L950,408" fill="none" stroke="#3d4b4d" stroke-width="1.8"/>
+<path d="M992,276 L1008,276 M992,282 L1008,282" stroke="#3d4b4d" stroke-width="1.8"/>
+<path d="M950,408 L940,420 M950,408 L950,420 M950,408 L960,420" stroke="#3d4b4d" stroke-width="1.8" fill="none"/>
+<circle cx="950" cy="400" r="4" fill="#fbfcfb" stroke="#3d4b4d" stroke-width="1.8"/>
+<text x="986" y="380" font-size="12" fill="#5b6b6d" text-anchor="end">one doctor receives zero or many appointments</text>
+<rect x="40" y="756" width="1160" height="178" rx="8" fill="#eef5f2" stroke="#c7d9d2"/>
+<text x="58" y="786" font-size="12.5" font-weight="700" fill="#1c2b2d">Rule: a doctor cannot hold two active appointments at the same date and time.</text>
+<text x="58" y="812" font-size="12.5" font-weight="400" fill="#1c2b2d">UNIQUE (doctor_id, active_slot). active_slot copies appt_datetime only while status = 'booked'; a cancelled row has NULL, so the slot can be booked again.</text>
+<text x="58" y="838" font-size="12.5" font-weight="400" fill="#1c2b2d">MySQL allows many NULLs in a UNIQUE index, and the cancelled row (with its refund_amount and cancelled_at) is kept as history.</text>
+<text x="58" y="864" font-size="12.5" font-weight="400" fill="#1c2b2d">Also enforced: CHECK refund_amount IS NULL or between 0 and amount_paid; CHECK status = 'cancelled' only when refund_amount and cancelled_at are set.</text>
+<text x="58" y="890" font-size="12.5" font-weight="400" fill="#1c2b2d">Normalisation: patient and doctor details are stored once and referenced by id (no repeated names, fees or rooms in appointments).</text>
+<text x="58" y="916" font-size="12.5" font-weight="400" fill="#1c2b2d">Every non-key column depends only on its own table's key, so the design is in 3NF.</text>
+<text x="40" y="961" font-size="11" fill="#5b6b6d">PK primary key, FK foreign key, UQ unique. Line ends: || exactly one, o&lt; zero or many.</text>
+</svg>
