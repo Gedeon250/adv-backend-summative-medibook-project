@@ -1,0 +1,19 @@
+{
+  "htmlLang": "fr",
+  "pageTitle": "Évaluation du cours MediBook",
+  "heading": "Évaluation du cours",
+  "instructions": "Répondez à chaque question en quelques phrases. Vos réponses sincères nous aident à améliorer ce cours.",
+  "dateLabel": "Aujourd'hui",
+  "languageLabel": "Langue",
+  "languages": { "en": "English", "fr": "Français" },
+  "questions": [
+    "Quel sujet de ce cours avez-vous trouvé le plus difficile, et pourquoi ?",
+    "Décrivez une notion que vous n'avez comprise qu'après les travaux pratiques. Qu'est-ce qui a fait le déclic ?",
+    "Comment votre approche de la conception de bases de données ou d'API a-t-elle changé depuis le début du trimestre ?",
+    "Qu'amélioreriez-vous dans la façon dont ce cours a été enseigné ou évalué ?",
+    "Comment comptez-vous appliquer ce que vous avez appris dans ce cours à l'avenir ?"
+  ],
+  "answerPlaceholder": "Écrivez votre réponse ici",
+  "submit": "Envoyer l'évaluation",
+  "thanks": "Merci. Votre évaluation a été enregistrée sur cette page."
+}

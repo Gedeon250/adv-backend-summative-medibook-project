@@ -1,0 +1,19 @@
+{
+  "htmlLang": "en",
+  "pageTitle": "MediBook course feedback",
+  "heading": "Course feedback",
+  "instructions": "Answer each question in a few sentences. Your honest answers help us improve this course.",
+  "dateLabel": "Today",
+  "languageLabel": "Language",
+  "languages": { "en": "English", "fr": "Français" },
+  "questions": [
+    "Which topic in this course did you find most challenging, and why?",
+    "Describe one concept you understood only after the practical assignments. What made it click?",
+    "How has your approach to designing databases or APIs changed since the start of the trimester?",
+    "What would you improve about how this course was taught or assessed?",
+    "How do you plan to apply what you learned in this course going forward?"
+  ],
+  "answerPlaceholder": "Write your answer here",
+  "submit": "Send feedback",
+  "thanks": "Thank you. Your feedback has been recorded on this page."
+}
