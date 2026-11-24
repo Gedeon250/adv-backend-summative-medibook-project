@@ -9,6 +9,8 @@ Schema diagram: [`schema-diagram.png`](schema-diagram.png) (also `.svg` and `.pd
 - MySQL 8.0.16+ (CHECK constraints are enforced from this version)
 - Redis 6.2+ (the worker uses `BLMOVE`)
 
+VIDEO: https://drive.google.com/file/d/1FLeAkCMT-8LaPrED99B8H8JKK9rJh7By/view?usp=sharing
+
 ## Setup
 ```bash
 git clone https://github.com/<your-username>/adv-backend-summative-medibook-project.git
